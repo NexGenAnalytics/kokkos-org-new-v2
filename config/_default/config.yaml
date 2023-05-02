@@ -1,0 +1,81 @@
+# About
+baseurl: "http://kokkos.org/"
+title: "Kokkos"
+languagecode: "en-us"
+# Website menu
+languages:
+  en:
+    menu:
+      main:
+      - identifier: "home"
+        name: "Home"
+        url: "/"
+        weight: 10
+      - name: "About"
+        url: "/about/"
+        weight: 20
+      - identifier: "abstract"
+        name: "Abstract"
+        url: "/about/abstract/"
+        parent: "About"
+        weight: 1
+      - identifier: "core"
+        name: "Core"
+        url: "/about/core/"
+        parent: "About"
+        weight: 2
+      - identifier: "repositories"
+        name: "Repositories"
+        url: "/repositories/"
+        weight: 30
+      - identifier: "documentation"
+        name: "Documentation"
+        url: "/documentation/"
+        weight: 40
+      - identifier: "blog"
+        name: "Blog"
+        url: "/blog/"
+        weight: 50
+      - identifier: "outreach"
+        name: "Outreach"
+        url: "/outreach/"
+        weight: 60
+      - name: "Community"
+        url: "/community/"
+        weight: 70
+      - identifier: "team"
+        name: "Team"
+        url: "/community/team/"
+        parent: "Community"
+        weight: 1
+      - identifier: "use-case-studies"
+        name: "Use Case Studies"
+        url: "/community/use-case-studies/"
+        parent: "Community"
+        weight: 2
+      - identifier: "applications"
+        name: "Applications"
+        url: "/community/applications/"
+        parent: "Community"
+        weight: 3
+      - identifier: "contact"
+        name: "Contact"
+        url: "/contact/"
+        weight: 80
+    weight: 8
+# Path to take static files
+staticDir:
+  - assets
+# Config search
+params:
+  search: true
+outputs:
+  home:
+  - "HTML"
+  - "JSON"
+  - "RSS"
+# Enable some html balise
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
