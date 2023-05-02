@@ -1,10 +1,10 @@
 title = "Hinode"
-copyright = "Copyright © 2023 Mark Dumay."
+copyright = ""
 paginate = 9
 enableGitInfo = true
 
 # additional settings
-baseURL = "https://child.gethinode.com/"
+baseURL = "https://kokkos-v2.com/"
 canonifyURLs = false
 enableEmoji = true
 enableRobotsTXT = true
@@ -17,35 +17,9 @@ ignoreErrors = ["error-remote-getjson"]
 timeout = "120s"
 
 languageCode = "en-us"
-defaultContentLanguage = "en"
-defaultContentLanguageInSubdir = true
 
 [taxonomies]
   tag = 'tags'
-
-[privacy]
-  [privacy.vimeo]
-    disabled = false
-    simple = true
-
-  [privacy.twitter]
-    disabled = false
-    enableDNT = true
-    simple = true
-
-  [privacy.instagram]
-    disabled = false
-    simple = true
-
-  [privacy.youtube]
-    disabled = false
-    privacyEnhanced = true
-
-[services]
-  [services.instagram]
-    disableInlineCSS = true
-  [services.twitter]
-    disableInlineCSS = true
 
 [outputFormats]
   [outputFormats.XML]

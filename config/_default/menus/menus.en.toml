@@ -15,13 +15,13 @@
 
 [[main]]
   name = "Sample project"
-  url = "/en/projects/sample-project/"
+  url = "/projects/sample-project/"
   parent = "Projects"
   weight = 1
 
 [[main]]
   name = "Another project"
-  url = "/en/projects/another-project/"
+  url = "/projects/another-project/"
   parent = "Projects"
   weight = 2
 
@@ -29,24 +29,6 @@
   name = "Tags"
   url = "/tags/"
   weight = 40
-
-[[social]]
-  name = "LinkedIn"
-  pre = "<i class=\"fab fa-linkedin fa-2x\"></i>"
-  url = "https://linkedin.com/"
-  weight = 10
-
-[[social]]
-  name = "GitHub"
-  pre = "<i class=\"fab fa-github fa-2x\"></i>"
-  url = "https://github.com/"
-  weight = 20
-
-[[social]]
-  name = "Medium"
-  pre = "<i class=\"fab fa-medium fa-2x\"></i>"
-  url = "https://medium.com/"
-  weight = 30
 
 [[sample]]
   name = "Blog"
@@ -60,12 +42,12 @@
 
 [[sample]]
   name = "Sample project"
-  url = "/en/projects/sample-project/"
+  url = "/projects/sample-project/"
   parent = "Projects"
   weight = 1
 
 [[sample]]
   name = "Another project"
-  url = "/en/projects/another-project/"
+  url = "/projects/another-project/"
   parent = "Projects"
   weight = 2

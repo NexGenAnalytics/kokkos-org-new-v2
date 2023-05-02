@@ -73,13 +73,10 @@
     type = "Organization"
     name = "Hinode"
     locale = "en-US"
-    # twitter = "https://twitter.com/gethinode"
-    # linkedIn = ""
     github = "https://github.com/gethinode/hinode"
     section = "blog"
     [author]
         name = "Mark Dumay"
-        # twitter = "https://twitter.com/markdumay"
         linkedin = "https://www.linkedin.com/in/markdumay/"
         github = "https://github.com/markdumay"
     [logo]
