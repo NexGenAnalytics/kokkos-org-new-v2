@@ -9,12 +9,11 @@
     anchor = true
     logo = "/img/kokkos-logo.png"
     color = "body"
-    style = "light"
     fixed = true
     offset = "3.8em"
     search = true
     breadcrumb = false
-    toc = false
+    toc = true
     sidebar = true
 
 [sections]
@@ -29,23 +28,6 @@
         orientation = "stacked"
         style = "border-0 card-zoom"
         separator = true
-    [sections.projects]
-        title = "Projects"
-        sort = "title"
-        reverse = false
-        cols = 1
-        color = "body-tertiary"
-        padding = "3"
-        header = "none"
-        footer = "tags"
-        orientation = "none"
-        style = "border-1 card-emphasize"
-        homepage = 3
-        separator = false
-
-[favicon]
-    logo = "img/favicon.png"
-    sizes = [16, 32, 48]
 
 [style]
     primary = "#2596be"
@@ -59,21 +41,6 @@
     themeOpacity = "10"
     themeFont = "Inter"
     themeFontPath = "/fonts"
-
-[schema]
-    type = "Organization"
-    name = "Hinode"
-    locale = "en-US"
-    github = "https://github.com/gethinode/hinode"
-    section = "blog"
-    [logo]
-        url = "img/logo512x512.png"
-        width = 512
-        height = 512
-    [image]
-        url = "img/logo1280x640.png"
-        width = 1280
-        height = 640
 
 [links]
     bs_badge_heading = "https://getbootstrap.com/docs/5.2/components/badge/#headings"
