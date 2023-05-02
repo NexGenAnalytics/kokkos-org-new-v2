@@ -4,15 +4,15 @@ title: "Team"
 
 The Kokkos Team is a multi-institutional group of HPC, C++ and Linear Algebra experts with a dedication to making live easier for computation scientists and engineers.
 
-// IMAGE
+{{< image src="img/snl-logo-632x200.jpg">}}
 
-// IMAGE
+{{< image src="img/lanl-logo-300x95.jpg">}}
 
-// IMAGE
+{{< image src="img/ornl-logo-300x95.jpg">}}
 
-// IMAGE
+{{< image src="img/ANL-logo-300x105.png">}}
 
-// IMAGE
+{{< image src="img/CSCS-Logo-300x121.jpg">}}
 
 # Kokkos Core
 

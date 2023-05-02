@@ -1,12 +1,10 @@
 ---
-title:
+title: "Kokkos"
 ---
-
-// IMAGE
 
 <h2 class="home-title-text">KOKKOS ECOSYSTEM <br /> Part of the Exascale Project</h2>
 
-// IMAGE
+{{< image src="img/kokkos-ecosystem-hero.jpg">}}
 
 ## Sponsors
 
@@ -17,6 +15,6 @@ This work was performed under US Government contract DE-AC52-06NA25396 for Los A
 
 This website contains material previously released under SAND2018-5365 O.
 
-// IMAGE
+{{< image src="img/snl-logo-632x200.jpg">}}
 
-// IMAGE
+{{< image src="img/ornl-logo-300x95.jpg">}}
