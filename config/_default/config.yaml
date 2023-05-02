@@ -51,10 +51,29 @@ languages:
         name: "Blog"
         url: "/blog/"
         weight: 40
-      - identifier: "outreach"
-        name: "Outreach"
+      - name: "Outreach"
         url: "/outreach/"
         weight: 50
+      - identifier: "outreach-events"
+        name: "Events"
+        url: "/outreach/events"
+        parent: "Outreach"
+        weight: 1
+      - identifier: "outreach-publications"
+        name: "Publications"
+        url: "/outreach/publications"
+        parent: "Outreach"
+        weight: 2
+      - identifier: "outreach-report-an-issue"
+        name: "Report An Issue"
+        url: "/outreach/report-an-issue"
+        parent: "Outreach"
+        weight: 3
+      - identifier: "outreach-slack-channel"
+        name: "Slack Channel"
+        url: "https://app.slack.com/client/T5ASL2F1N"
+        parent: "Outreach"
+        weight: 4
       - name: "Community"
         url: "/community/"
         weight: 60
