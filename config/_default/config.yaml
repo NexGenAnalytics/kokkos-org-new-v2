@@ -15,11 +15,31 @@ languages:
         url: "/about/abstract/"
         parent: "About"
         weight: 1
-      - identifier: "core"
+      - identifier: "about-core"
         name: "Core"
         url: "/about/core/"
         parent: "About"
         weight: 2
+      - identifier: "about-kernels"
+        name: "Kernels"
+        url: "/about/kernels/"
+        parent: "About"
+        weight: 3
+      - identifier: "about-tools"
+        name: "Tools"
+        url: "/about/tools/"
+        parent: "About"
+        weight: 4
+      - identifier: "about-tutorials"
+        name: "Tutorials"
+        url: "https://github.com/kokkos/kokkos-tutorials"
+        parent: "About"
+        weight: 5
+      - identifier: "about-news"
+        name: "News"
+        url: "/blog/"
+        parent: "About"
+        weight: 6
       - name: "Repositories"
         url: "/repositories/"
         weight: 20

@@ -4,7 +4,7 @@
 
 [navigation]
     anchor = true
-    logo = "/img/kokkos-logo.png"
+    logo = "img/kokkos-logo.png"
     color = "body"
     style = "light"
     fixed = true
