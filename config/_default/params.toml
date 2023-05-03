@@ -2,6 +2,10 @@
     version = "0.9"
     basePath = "node_modules/@gethinode/hinode"
 
+# Remove the toggle button for light or dark mode
+[main]
+    enableDarkMode = false
+
 [home]
     sections = ["blog"]
 
