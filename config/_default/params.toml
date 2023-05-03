@@ -8,6 +8,10 @@
 
 [home]
     sections = ["blog"]
+    featurePhoto = ""
+    fullCover = true
+    centerHeadLine = false
+    style = ""
 
 [navigation]
     anchor = true

@@ -4,15 +4,15 @@ title: "Team"
 
 The Kokkos Team is a multi-institutional group of HPC, C++ and Linear Algebra experts with a dedication to making live easier for computation scientists and engineers.
 
-{{< image src="img/snl-logo-632x200.jpg">}}
+{{< image src="img/snl-logo-632x200.jpg" class="community-team-image-column">}}
 
-{{< image src="img/lanl-logo-300x95.jpg">}}
+{{< image src="img/lanl-logo-300x95.jpg" class="community-team-image-column">}}
 
-{{< image src="img/ornl-logo-300x95.jpg">}}
+{{< image src="img/ornl-logo-300x95.jpg" class="community-team-image-column">}}
 
-{{< image src="img/ANL-logo-300x105.png">}}
+{{< image src="img/ANL-logo-300x105.png" class="community-team-image-column">}}
 
-{{< image src="img/CSCS-Logo-300x121.jpg">}}
+{{< image src="img/CSCS-Logo-300x121.jpg" class="community-team-image-column">}}
 
 # Kokkos Core
 
@@ -78,3 +78,14 @@ The Kokkos Team is a multi-institutional group of HPC, C++ and Linear Algebra ex
 - Kim Liegeois
 - Carl Pearson
 - Amy Powell
+
+
+<style>
+
+    /* Align horizontally /community/team's image */
+    .community-team-image-column {
+        float: left;
+        width: 20%; /* 100% / 5 figures = 20% */
+    }
+
+</style>
