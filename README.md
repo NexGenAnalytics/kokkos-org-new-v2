@@ -17,6 +17,12 @@ npm install
 npm run start
 ```
 
+or 
+
+```
+hugo server -D
+```
+
 # Generate
 
 To generate the site HTML, build with NPM
