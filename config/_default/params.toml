@@ -13,17 +13,6 @@
     centerHeadLine = false
     style = ""
 
-[navigation]
-    anchor = true
-    logo = "/img/kokkos-logo.png"
-    color = "body"
-    fixed = true
-    offset = "3.8em"
-    search = true
-    breadcrumb = false
-    toc = true
-    sidebar = true
-
 [sections]
     [sections.blog]
         title = "Blog"
