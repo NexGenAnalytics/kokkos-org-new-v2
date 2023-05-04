@@ -172,17 +172,6 @@ home = [ "HTML", "JSON", "RSS" ]
 [markup.goldmark.renderer]
 unsafe = true
 
-[navigation]
-anchor = true
-logo = "/img/kokkos-logo.png"
-color = "body"
-fixed = true
-offset = "3.8em"
-search = true
-breadcrumb = false
-toc = true
-sidebar = true
-
 # defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
 
