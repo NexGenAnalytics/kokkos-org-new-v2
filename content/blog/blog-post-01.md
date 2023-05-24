@@ -1,8 +1,8 @@
 ---
 author: kokkos-team
 title: HPX now available as an experimental backend
-date: 2019-04-09
-tags: ["blog"]
+date: "2019-04-09"
+tags: ["blog", "HPX"]
 thumbnail: img/kokkos-blog-post1.jpg
 ---
 

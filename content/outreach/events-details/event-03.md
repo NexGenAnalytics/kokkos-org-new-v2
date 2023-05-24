@@ -1,9 +1,8 @@
 ---
 authors: ["kokkos-team"]
-categories: ["Kokkos", "event"]
 title: "Event: Kokkos Bootcamp in Oakland, CA March 2019"
 date: "2019-03-26"
-description: ""
+tags: ["Kokkos", "event"]
 ---
 
 Start: Mar 26, 2019, 8:00 AM

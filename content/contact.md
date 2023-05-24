@@ -1,5 +1,8 @@
 ---
+authors: ["kokkos-team"]
 title: "Contact"
+date: "2023-01-01"
+tags: ["Bugs", "Non-public questions"]
 ---
 
 # BUG REPORTS

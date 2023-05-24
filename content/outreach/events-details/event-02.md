@@ -1,9 +1,8 @@
 ---
 authors: ["kokkos-team"]
-categories: ["Kokkos", "event"]
 title: "Event: 1st Kokkos Usergroup Meeting April 23rd-25th ABQ NM"
 date: "2019-04-23"
-description: ""
+tags: ["Kokkos", "event"]
 ---
 
 Start: Apr 23, 2019, 9:00 AM

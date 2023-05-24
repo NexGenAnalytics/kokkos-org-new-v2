@@ -1,5 +1,8 @@
 ---
+authors: ["kokkos-team"]
 title: ""
+date: "2023-01-01"
+tags: [""]
 ---
 
 <div class="home-title-div">

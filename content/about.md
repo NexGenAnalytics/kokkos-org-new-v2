@@ -1,8 +1,6 @@
 ---
-title: About
-description: Hinode irap 5.
-date: 2022-04-11
-updated: 2023-02-11
+title: "About"
+date: "2022-04-11"
 ---
 
 

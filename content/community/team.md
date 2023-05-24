@@ -1,5 +1,8 @@
 ---
+authors: ["kokkos-team"]
 title: "Team"
+date: "2023-01-01"
+tags: ["Team", "Sandia"]
 ---
 
 The Kokkos Team is a multi-institutional group of HPC, C++ and Linear Algebra experts with a dedication to making live easier for computation scientists and engineers.

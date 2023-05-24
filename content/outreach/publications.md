@@ -1,5 +1,8 @@
 ---
+authors: ["kokkos-team"]
 title: "Publications"
+date: "2023-01-01"
+tags: [""]
 ---
 
 This page contains various presentation regarding regarding Kokkos sorted by year and category.

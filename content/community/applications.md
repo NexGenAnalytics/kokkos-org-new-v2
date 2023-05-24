@@ -1,5 +1,8 @@
 ---
+authors: ["kokkos-team"]
 title: "Applications"
+date: "2023-01-01"
+tags: ["Applications", "AppName"]
 ---
 
 The following is a partial list of applications leveraging Kokkos for Performance Portability. The “Status” field indicates whether the application is using Kokkos in productions runs yet, or whether the project is in the process or porting over to Kokkos or developing its capabilities from scratch.
