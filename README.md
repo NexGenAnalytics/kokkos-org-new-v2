@@ -22,7 +22,7 @@ npm run start
 # or
 hugo server -D
 ```
-5. Open Chrome, web server is available at http://localhost:`<assigned-port-depends>`
+5. Open Chrome, web server is available at `http://localhost:<assigned-port-depends>`
     - example: `http://localhost:1313`
 
 <br />
@@ -48,12 +48,22 @@ hugo server -D
 
 <br />
 
+## How to add a new page
+1. Create a new file or folder in the `content/` folder
+2. The name given will be the identifier in `config.toml` code
+3. This .md file must have a correct header (see part **How to add a blog post**)
+4. The content is then free following the markdown goldmark rules
+5. The file / page is accessible via its url defined in the `config.toml` file
+    - If you want to add it to the top menubar, read the next part
+
+<br />
+
 ## How to add a item in the top menu bar
 1. Go to `config.toml`
 2. Add +1 to weight line 6 and 7:
 ```toml
 [languages.en]
-weight = <old> + 1
+weight = <new-weight>
 ```
 3. Add an item under the tag below:
 ```toml
@@ -61,7 +71,7 @@ weight = <old> + 1
 ```
 4. It is necessary to specify 3 points: name, url and weight (location of the item in the top bar)
 - Here is an example:
-    - ```
+    - ```toml
         [[languages.en.menu.main]]
         name = "Name which is displayed"
         url = "/<path-to-folder>/<where-your-new-content-folder-is>/"
@@ -71,7 +81,7 @@ weight = <old> + 1
 5. If you have no content at the `url`, you get an error. To solve it you have to create a page or a folder with the same name as your `url` (for more information see next section)
 6. If you want to add a drop down menu, you just have then to specify sub-menus with `parent` and `weight`
 - Here is an example:
-    - ```
+    - ```toml
         [[languages.en.menu.main]]
         identifier = "Unique name for this"
         name = "Name which is displayed child"
@@ -79,17 +89,6 @@ weight = <old> + 1
         parent = "Name which is displayed"
         weight = <number>
       ```
-
-<br />
-
-## How to add a new page (not a blog)
--
--
--
--
--
-
-CREATE FOLDER vs JUST A FILE
 
 <br />
 
