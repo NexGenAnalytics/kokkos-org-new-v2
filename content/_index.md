@@ -41,7 +41,7 @@ This website contains material previously released under SAND2018-5365 O.
         left: 5vw;
         right: 5vw;
         transform: translateY(-50%);
-        font-size: 3.0vw; 
+        font-size: 2.0vw; 
     }
     .home-title-image {
         border-radius: 0.375rem;
